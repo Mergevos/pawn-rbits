@@ -121,7 +121,7 @@ This is just analog all the rest of the bit-types, just make sure you pick the r
 ### FAQ (originally written by RyDeR)
 
 * How can I use this with enum?
-- You can just sort per bit type. For example for 1-bit arrays:
+ - You can just sort per bit type. For example for 1-bit arrays:
 ```pawn
 enum e_Bit1_Data {
     e_bSpawned,
@@ -139,7 +139,7 @@ Bit1_Get(g_Bit1_Data[e_bSpawned], playerid);
 ```
 
 * How to increase/decrease the value?
-- Since x++ is equal to x = x + 1 we can simply use that technique:
+ - Since x++ is equal to x = x + 1 we can simply use that technique:
 
 ```pawn
 Bit4_Set(b4_Nibble, 0, Bit4_Get(b4_Nibble, 0) + 1);
