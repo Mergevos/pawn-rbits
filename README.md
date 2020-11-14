@@ -118,6 +118,32 @@ The .amx size of this after compile is only 473 bytes. Probably not a big deal r
 
 This is just analog all the rest of the bit-types, just make sure you pick the right bit-type for your value.
 
+### FAQ (originally written by RyDeR)
+
+* How can I use this with enum?
+- You can just sort per bit type. For example for 1-bit arrays:
+```pawn
+enum e_Bit1_Data {
+    e_bSpawned,
+    e_bIsDeath,
+    e_bInDM,
+    // ...
+};
+
+new
+    g_Bit1_Data[e_Bit1_Data] <MAX_PLAYERS>
+;
+
+Bit1_Set(g_Bit1_Data[e_bSpawned], playerid, true);
+Bit1_Get(g_Bit1_Data[e_bSpawned], playerid);
+```
+
+* How to increase/decrease the value?
+- Since x++ is equal to x = x + 1 we can simply use that technique:
+
+```pawn
+Bit4_Set(b4_Nibble, 0, Bit4_Get(b4_Nibble, 0) + 1);
+```
 
 ## Testing
 
