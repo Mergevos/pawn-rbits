@@ -2,7 +2,7 @@
 
 [![Mergevos](https://img.shields.io/badge/Mergevos-pawn--rbits-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/pawn-rbits)
 
-Ryder's rBits include because id doesn't have a Github repo.
+Ryder's rBits include because it doesn't have a Github repo.
 
 ## Installation
 
