@@ -37,7 +37,7 @@ To declare a Bit Array, use the following code.
 new BitX: array<MAX_SIZE>;
 ``` 
 
-_*Take into account that you must change X with a Bit Array type you want to create.*_
+_*Take into account that you must change X with a Bit Array type you want to create.*_  
 Thus, let's create Bit 4 nibble with a size of 32:
 
 ```pawn
