@@ -2,6 +2,7 @@
 	"user": "Mergevos",
 	"repo": "pawn-rbits",
 	"entry": "test.pwn",
+	"tag": "1.0.0",
 	"output": "test.amx",
 	"dev_dependencies": [
 		"sampctl/samp-stdlib",
